@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x
+        {
+            height: 80px;
+            width: 200px;
+            background: rgb(73, 242, 242);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin:100px auto;
+            transition: 1s;
+            position: relative;
+            overflow:hidden;
+            z-index: 0;
+            color:#fff;
+            font-size: 30px;
+            font-family: cursive;
+            
+        }
+        .y
+        {
+            height: 80px;
+            width: 200px;
+            background: linear-gradient(rgb(87, 223, 225),rgb(221, 90, 236));
+
+            position: absolute;
+            top:0;
+            left:-100%;
+            transition: 1s;
+            z-index: -1;
+        }
+        .x:hover .y
+        {
+            left:0;
+        }
+    </style>
+</head>
+<body>
+    <div class="x">
+        Hover Me
+        <div class="y"></div>
+    </div>
+</body>
+</html>
