@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background: rgb(90, 202, 240);
+        }
+        .x
+        {
+            height: 100px;
+            width: 100px;
+            background: conic-gradient(pink,blue);
+            border-radius: 50%;
+            border: 2px solid black;
+            margin: 10px;
+            float: left;
+        }
+        .y
+        {
+            background: conic-gradient(from -45dg, pink,blue);
+        }
+        .z
+        {
+            background: conic-gradient(at 20% 80%, pink,blue,yellow,green); 
+        }
+        .a
+        {
+            background: conic-gradient(pink 0deg,pink 90deg,blue 90deg,blue 180deg,yellow 180deg,yellow 270deg,green 270deg,green 360deg);
+        }
+        .b
+        {
+            background: repeating-conic-gradient(cyan 0deg,cyan 20deg,rgb(224, 98, 203) 20deg, rgb(223, 81, 190) 30deg);
+        }
+        .c
+        {
+            background: repeating-conic-gradient(rgb(240, 137, 19) 0deg,rgb(232, 107, 45) 20deg,transparent 20deg, rgb(106, 255, 80) 30deg);
+
+            background-size: 20%;
+        }
+        .d
+        {
+            background: repeating-conic-gradient(rgb(240, 137, 19) 0deg,rgb(232, 107, 45) 20deg,transparent 20deg, rgb(106, 255, 80) 30deg);
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="x"></div>
+    <div class="x y"></div>
+    <div class="x z"></div>
+    <div class="x a"></div>
+    <div class="x b"></div>
+    <div class="x c"></div>
+    <div class="x d"></div>
+</body>
+</html>
