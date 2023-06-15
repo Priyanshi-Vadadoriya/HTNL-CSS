@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: black;
+           
+        }
+        .main
+        {
+            height: 400px;
+            width: 600px;
+            position: relative;
+        }
+        .card
+        {
+            height: 400px;
+            width: 600px;
+            background: rgba(255, 255, 255, 0.11); 
+            position: absolute;
+            box-shadow: 0 0 30px rgb(96, 252, 128);
+            backdrop-filter: blur(9px);
+        }
+        .card1
+        {
+            height: 100px;
+            width: 100px;
+            background: lightcoral;
+            border-radius: 50%;
+            position: absolute;
+            top: -50px;
+            left: 70px;
+            z-index: -2;
+           
+        }
+        .card2
+        {
+            height: 250px;
+            width: 250px;
+            background: rgb(111, 121, 229);
+            border-radius: 50%;
+            position: absolute;
+            top: -25%;
+            left: 80%;
+            z-index: -1;
+           
+        }
+        .card3
+        {
+            height: 200px;
+            width: 200px;
+            background: rgb(229, 152, 69);
+            border-radius: 50%;
+            position: absolute;
+            top: 70%;
+            left: -15%;
+            z-index: -5;
+          
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="card"></div>
+        <div class="card1"></div>
+        <div class="card2"></div>
+        <div class="card3"></div>
+    </div>
+</body>
+</html>

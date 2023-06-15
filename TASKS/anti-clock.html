@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x
+        {
+            height: 250px;
+            width: 250px;
+            background: transparent;
+            margin: 200px auto;
+            position: relative;
+  
+
+        }
+        .y
+        {
+            height: 250px;
+            width: 250px;
+            background: transparent;
+            border: 12px solid transparent;
+            border-top: 12px solid cyan;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            border-radius: 50%;
+            animation: ani1 1s infinite linear;
+           
+            
+            
+        }
+        .z
+        {
+            height: 200px;
+            width: 200px;
+            background: transparent ;
+            border: 12px solid transparent;
+            border-top: 12px solid rgb(236, 83, 231);
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            border-radius: 50%;
+            animation: ani2 1s infinite linear;
+            
+        }
+        .a
+        {
+            height: 150px;
+            width: 150px;
+            background: transparent ;
+            border: 12px solid transparent;
+            border-top: 12px solid rgb(43, 252, 67);
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            border-radius: 50%;
+            animation: ani3 1s infinite linear;
+            
+        }
+        .b
+        {
+            height: 100px;
+            width: 100px;
+            background: transparent ;
+            border: 12px solid transparent;
+            border-top: 12px solid rgb(219, 124, 23);
+            position: absolute;
+            top: 75px;
+            left: 75px;
+            border-radius: 50%;
+            animation: ani4 1s infinite linear;
+        }
+        @keyframes ani1
+        {
+            from{transform: rotate(0deg);}
+            to{transform: rotate(360deg);}
+        }
+        @keyframes ani2
+        {
+            from{transform: rotate(360deg);}
+            to{transform: rotate(0deg);}
+        }
+        @keyframes ani3
+        {
+            from{transform: rotate(0deg);}
+            to{transform: rotate(360deg);}
+        }
+        @keyframes ani4
+        {
+            from{transform: rotate(360deg);}
+            to{transform: rotate(0deg);}
+        }
+    </style>
+</head>
+<body>
+    <div class="x">
+        <div class="y"></div>
+        <div class="z"></div>
+        <div class="a"></div>
+        <div class="b"></div>
+    </div>
+</body>
+</html>

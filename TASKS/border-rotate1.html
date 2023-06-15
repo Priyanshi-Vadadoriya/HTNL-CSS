@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rotation order</title>
+    <style>
+    *
+    {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+        
+        .x
+        {
+            background:linear-gradient(red,blue);
+            height: 300px;width: 200px;
+            margin:  auto;
+             transform: translate(40px,200px); 
+             position: relative;
+             overflow: hidden;     
+              display: flex;
+              justify-content: center;
+              align-items: center;
+
+        }
+       
+        .x::after
+        {
+            content: "";
+           height: 280px;
+           width: 180px;
+           background: black;
+           position: absolute; 
+          
+        }
+
+         .x::before 
+        {
+            content: " ";
+            height: 400px;width: 400px;
+            background:linear-gradient(red,blue);
+            position: absolute;
+             top: -40px; 
+            left: -80px;  
+            transform: rotate(0deg);
+            transition: 2s; 
+     }
+
+        .x:hover::before 
+        {
+            transform: rotate(360deg);
+        }  
+    </style>
+</head>
+<body bgcolor="skyblue">
+    <div class="x"></div>
+</body>
+</html>

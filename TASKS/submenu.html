@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            height: 40px;
+            width: 100%;
+            background: lightblue;
+        }
+        nav ul{
+        margin-left: 400px;
+        word-spacing: 30px;
+    }
+    nav ul li{
+        display: inline;
+        border: 1px solid black;
+        line-height: 40px;
+        padding: 10px;
+        position: relative;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+    }
+    .drop1
+    {
+       height: auto;
+       width: 200px;
+        background: lightcoral;
+        border: 1px solid black;
+        position: absolute;
+        top:100%;
+        left: -40%;
+        display: none;
+        
+
+    }
+    .drop1 ul{
+        margin: 0;
+        padding: 0;
+    }
+    .drop1 ul li
+    {
+        margin: 0;
+        padding: 0;
+        display: block;
+        text-align: center;
+        color: blue;
+        cursor: pointer;
+
+    }
+    nav ul li:hover .drop1{
+        display: block ;
+    }
+    .drop2
+    {
+        height: auto;
+        width: 200px;
+        background: lightgreen;
+        position: absolute;
+        top: 0%;
+        left: 100%;
+        border: 1px solid black;
+        display: none;
+    }
+    .drop2 ul{
+        margin: 0;
+        padding: 0;
+    }
+    .drop2 ul li{
+        margin: 0;
+        padding: 0;
+        color: blue;
+        text-align: center;
+        display: block;
+    }
+    .drop1 ul li:hover .drop2{
+        display: block;
+    }
+    </style>
+      
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a>
+
+                <div class="drop1">
+                    <ul>
+                        <li><a href="#">Service1</a></li>
+                        <li><a href="#">Service2</a></li>
+                        <li><a href="#">Service3</a>
+                        
+                            <div class="drop2">
+                                <ul>
+                                    <li><a href="#">1</a></li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li><a href="#">4</a></li>
+                                </ul>
+                            </div>
+
+                        </li>
+                        <li><a href="#">Service4</a></li>
+                        <li><a href="#">Service5</a></li>
+                    </ul>
+
+                </div>
+
+                </li>
+
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
