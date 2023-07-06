@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main
+{
+    height: 700px;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(0, 66, 166, 0.35) 0%, #004274 100%), url(images/img1.jpg);
+    
+    background: url(../images/img1.jpg);
+    background-size: 100% 100%;
+}
+.main header{
+    width: 100%;
+    height: 130px;
+    /* border: 1px solid black; */
+   display: grid;
+   grid-template-rows: 40px 90px;
+}
+.main header .header-top{
+    border: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: 6fr 4fr;
+    grid-template-rows: 100%;
+    padding-left: 60px;
+}
+.main header .header-top .social-icons{
+    line-height: 42px;
+    
+    
+}
+.main header .header-top .social-icons a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    border-right: 1px solid #ccc;
+    font-size: 22;
+    letter-spacing: 22px;
+    padding-left: 13px !important;
+    text-decoration: none;
+    color: white;
+}
+.main header .header-top .contact-area{
+    border: 1px solid #ccc;
+    margin-left: 80px;
+}
+.main header .header-top .contact-area ul {
+    list-style-type: none;
+   
+    
+}
+.main header .header-top .contact-area ul li{
+    display: inline-block;
+    height: 40px;
+   
+}
+.main header .header-top .contact-area ul li a{
+    display: inline-block;
+    border-right: 1px solid #ccc;
+    height: 40px;
+    line-height: 30px;
+    padding-inline: 15px;
+    text-decoration: none;
+    color: white;
+}
+
+.main header .header-bottum{
+    display: grid;
+    grid-template-columns: 2fr 5fr 3fr;
+}
+.main header .header-bottum .logo-area{
+    text-align: center;
+    padding-top: 10px;
+    border: 1px solid black;
+}
+
+.main header .header-bottum .actions{
+    border: 1px solid black;
+    padding: 20px;
+    padding-left: 100px;
+
+}
+.main header .header-bottum .actions ul {
+    list-style-type: none;
+    
+}
+.main header .header-bottum .actions ul li{
+    display: inline-block;
+    /* height: 40px; */
+}
+.main header .header-bottum .actions ul li a{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding-inline: 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+/* .main header .header-bottum .actions button
+{
+    padding: 5px;
+    background: #0073e1;
+    color: white;
+    margin-left: 10px;
+} */
+/* content start */
+.content
+{
+    height: 175px;
+    width: 100%;
+    padding: 10px;
+    margin-top: 150px;
+}
+.content .text
+{
+    height: 155px;
+    width: 1140px;
+    margin: auto;
+    
+}
+.content .text h2
+{
+    height: 60px;
+    width: 1140px;
+    text-align: center;
+    color: #fff;
+    font-family: roboto,Sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+}
+.content .text .caption
+{
+    height: 74px;
+    width: 1140px;
+    padding-top: 20px;
+}
+.content .text p{
+    height: 54px;
+    width: 760px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.6em;
+}
+/* content end */
+
+.main header .header-bottum nav
+{
+    border: 1px solid black;
+    padding: 0 80px;
+
+}
+.main header .header-bottum nav .menu
+{
+    height: 90px;
+    width: 580px;
+ 
+}
+.main header .header-bottum nav .menu .home li{
+    height: 90px;
+    width: 79px;
+    line-height: 90px;
+    display: inline-block;
+    position: relative;
+}
+.main header .header-bottum nav .menu .home li a{
+    /* height: 90px; */
+    width: 79px;
+    /* background-color: lightseagreen; */
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #fff;
+}
+ .main header .header-bottum nav .menu .home li .submenu
+{
+    height: 451px;
+    width: 285px;
+    background-color: lightcoral;
+    position: absolute;
+    top: 90px;
+    left: 0;
+} 

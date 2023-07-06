@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+  margin:0; 
+  padding:0; 
+ 
+}
+.main
+{
+  width: 100%;
+  height: 600px;
+  background: cyan;
+  position: relative;
+}
+.right-eye{
+  background:rgb(255, 255, 255); 
+  height:150px;
+  width:15%; 
+  position:absolute;
+  top:30%;
+  left:30%;
+ 
+  border-radius : 50% 50%;
+  overflow:hidden;
+}
+
+
+.left-eye{
+  background:rgb(255, 255, 255); 
+  height:150px;
+  width:15%; 
+  position:absolute;
+  top:30%;
+  left:50%;
+ 
+  border-radius : 50% 50%;
+  overflow:hidden;
+}
+.ball{
+  width:40px; 
+  height:40px; 
+  background: #023205;
+  border-radius: 50%; 
+  border: 10px solid #000;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
+  animation: anim 3s infinite;
+  animation: anim2 3s infinite;
+}
+
+.shut{
+  width:300px; 
+  height:200px;
+  top:50%; 
+  left:50%;
+  position:absolute;
+  transform:translate(-50%,-50%) ;
+  z-index:10;   
+  
+}
+
+.shut span{
+  display:block;
+  width:100%; 
+  height:100%; 
+  background:cyan; 
+  border-radius: 0 0 60% 60%;
+  animation: anim 3s infinite;
+  position: absolute;
+  top: -200px;
+  left: 0;
+  
+}  
+p
+{
+  width: 12%;
+  height: 100px;
+  border-radius: 50%;
+  border: 8px solid black;
+  border-bottom-color:transparent;
+  border-left-color:transparent;
+  border-right-color:transparent;
+  position: absolute;
+  top: 100px;
+  left: 31%;
+  animation: anim3 2s infinite;
+  
+} 
+i
+{
+  width: 12%;
+  height: 100px;
+  border-radius: 50%;
+  border: 8px solid black;
+  border-bottom-color:transparent;
+  border-left-color:transparent;
+  border-right-color:transparent;
+  position: absolute;
+  top: 118px;
+  left: 51%;
+  animation: anim3 2s infinite;
+  
+} 
+@keyframes anim
+{
+    from{transform: translate(0,0);}
+    to{transform: translate(0,200px);}
+    
+}
+ 
+ @keyframes anim2
+{
+    from{transform: translate(0,0)}
+    to{transform: translate(-160%,0)}
+
+}  
+@keyframes anim3
+{
+    from{transform: translate(0,0)}
+    to{transform: translate(0,-30px)}
+
+}  
+    </style>
+</head>
+<body>
+  
+    <div class="main">
+      <p></p>
+      <div class="right-eye">
+        <div class="shut">
+          <span></span>
+        </div>
+        <div class="ball">
+      </div>
+      </div>
+      <i></i>
+    <div class="left-eye">
+        <div class="shut">
+          <span></span>
+        </div>
+        <div class="ball">
+      </div>
+      </div>
+    </div>
+    
+</body>
+</html>
