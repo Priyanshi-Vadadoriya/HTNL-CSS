@@ -1,0 +1,80 @@
+* ---------------------------------------------------HTML-5----------------------------------------------
+
+
+
+
+• What are the new tags added in HTML5?
+
+-----> article,audio,video,canvas,header,footer,nav,section,embed
+
+
+
+
+
+
+• How to embed audio and video in a webpage?
+
+-----> there is 3 ways to embed video or audio
+
+1. audio/video
+
+*Syntax:-----
+<audio>
+    <source src="file_name" type="audio_file_type">
+</audio>
+
+*examples:-----
+2.
+
+<video src="foo.mp4"  width = "300" height = "200" controls>
+
+</video>
+
+2. Embed
+
+<embed src="https://images.template.net/80629/Shop-Small-Youtube-Banner-Template.jpeg"
+height="250" width=100%>
+
+3. iframe
+
+<iframe
+src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.891073427388!2d77.59965
+45!3d12.978818200000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1664d36
+19b53%3A0xc13769784709aec!2sM.%20Chinnaswamy%20Stadium!5e0!3m2!1sen!2sin!4v168559525755
+1!5m2!1sen!2sin" width="550" height="150" style="border:0;" allowfullscreen=""
+loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+
+
+• Semantic element in HTML5?
+
+---> semantic element provide same mean to browser & user
+1. Strong
+2. Header
+3. Nav
+4. Footer
+
+
+
+
+
+
+• Canvas and SVG tags
+
+----->
+ 1. Canvas work on pixel base it use for graphic purpose
+
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid
+#000000;">
+</canvas>
+
+2. SVG stands for :-Scalable Vector Graphics
+
+SVG is used to define graphics for the Web
+<svg width="100" height="100">
+<circle cx="50" cy="50" r="40" stroke="green" stroke-width="4"
+fill="yellow" />
+</svg>

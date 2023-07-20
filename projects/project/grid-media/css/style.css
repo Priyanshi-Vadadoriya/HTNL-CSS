@@ -14,9 +14,10 @@
     grid-template-columns: 3fr 3fr 4fr;
     grid-template-rows: 90px;
     background-color: white;
-    /* position: fixed;
+    position: fixed;
     top: 0%;
-    left: 0%; */
+    left: 0%;
+    z-index: 3;
   }
 .banner .header .logo{
     display: flex;
@@ -294,6 +295,7 @@
 }
 .banner .banner-3 .image1 .item p{
     font-size: 17px;
+    color: white;
 }
 
 .banner .banner-3 .image2 .effect{
@@ -325,6 +327,7 @@
 }
 .banner .banner-3 .image2 .item p{
     font-size: 17px;
+    color: white;
 }
 .banner .banner-3 .image3 .effect{
     height: 100%;
@@ -354,6 +357,7 @@
 }
 .banner .banner-3 .image3 .item p{
     font-size: 17px;
+    color: white;
 }
 
 
