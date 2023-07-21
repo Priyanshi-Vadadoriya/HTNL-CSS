@@ -7,6 +7,10 @@
 .banner{
     height: auto;
 }
+body
+{
+    overflow-x: hidden;
+}
 .banner .header{
     width: 100%;
     border: 1px solid black;
