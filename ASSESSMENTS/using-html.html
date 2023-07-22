@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <div id="x">
+        <h1>Student Registration Form</h1>
+        <form>
+            <!-- First Name field -->
+            <div>
+                <label>First Name: <br></label>
+                <input type="text" placeholder="Enter your first name" pattern="[A-Za-z]{3,6}" required>
+            </div>
+            <!-- Last Name field -->
+            <div>
+                <label>Last Name: <br></label>
+                <input type="text" placeholder="Enter your last name" pattern="[A-Za-z]{3,6}" required>
+            </div>
+            <!-- Email field -->
+            <div>
+                <label>Email: <br></label>
+                <input type="email"  placeholder="Enter your email" required>
+            </div>
+            <!-- Mobile field -->
+            <div>
+                <label>Mobile: <br></label>
+                <input type="tel"  placeholder="Enter your mobile number" pattern="[0-9]{10}" required>
+            </div>
+            <!-- Gender field -->
+            <div>
+                <label>Gender: <br></label>
+                <input type="radio" name="r1" required>Male
+                <input type="radio" name="r1" required>Female
+            </div>
+            <!-- Date of Birth field -->
+            <div>
+                <label>Date of Birth: <br></label>
+                <input type="date" required>
+            </div>
+            <!-- Address field -->
+            <div>
+                <label>Address: <br></label>
+                <textarea  rows="12" cols="35"></textarea>
+            </div>
+            <!-- City field -->
+            <div>
+                <label>City: <br></label>
+                <input type="text" required>
+            </div>
+            <!-- Area/PIN field -->
+            <div>
+                <label>Area/PIN: <br></label>
+                <input type="text" required>
+            </div>
+            <!-- Status field -->
+            <div>
+                <label>Status: <br></label>
+               <input type="text" required>
+            </div>
+            <!-- Qualification field -->
+            <div>
+                <label>Qualification: <br></label>
+                <select required>
+                    <option hidden>Select Qualification:</option>
+                    <option value="">10th</option>
+                    <option value="">12th</option>
+                    <option value="">Graduate</option>
+                    <option value="">Post Graduate</option>
+                    <option value="">Phd</option>
+                </select>
+            </div>
+            <!-- Specialization field -->
+            <div>
+                <label>Specialization: <br></label>
+                <input type="checkbox">
+                <label>Computer Science</label><br>
+                <input type="checkbox">
+                <label>Information Technology</label><br>
+                <input type="checkbox">
+                <label>Computer Architecture</label><br>
+                <input type="checkbox">
+                <label>Tele Communication</label><br>
+            </div>
+            <!-- Password field -->
+            <div>
+                <label>Password: <br></label>
+                <input type="password" required><br><br>
+            </div>
+            <!-- Submit button -->
+            <div>
+                <button type="submit">Registered</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
