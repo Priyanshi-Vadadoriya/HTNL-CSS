@@ -1,0 +1,54 @@
+@media(max-width:1200px)
+{
+.main .gallery
+{
+    grid-template-columns: 1fr;
+}
+.main .gallery .left .div-1{
+    grid-template-columns: 1fr;
+}
+.main .gallery .left .div-2{
+    grid-template-columns: 1fr;
+    margin: 0px 0px;
+}
+.main .gallery .left .div-3{
+    grid-template-columns: 1fr;
+    margin-bottom: 0px;
+}
+.main .gallery .left .div-4{
+    grid-template-columns: 1fr;
+}
+.main .gallery .right h2
+{
+    margin: 10% 0% 10% 65%;
+}
+.main .gallery .right ul li a
+{
+    padding: 5% 0% 5% 65%;
+}
+.main .gallery .right .icon
+{
+    margin-left: 65%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

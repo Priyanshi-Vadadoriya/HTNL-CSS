@@ -1,0 +1,80 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.main
+{
+    height: auto;
+    width: 100%;
+    background-color: black;
+}
+.main .gallery
+{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+}
+
+.main .gallery .right h2
+{
+    margin: 10% 0% 10% 50%;
+    color: white;
+}
+.main .gallery .right ul li a
+{
+    display: block;
+    padding: 5% 0% 5% 63%;
+    text-decoration: none;
+    color: white;
+}
+.main .gallery .right .icon
+{
+    height: 30px;
+    width: 38%;
+    font-size: 20px;
+    margin-left: 50%;
+    word-spacing: 25px;
+    margin-top: 45px;
+    color: white;
+}
+
+.main .gallery .left .div-1,.div-2,.div-3,.div-4{
+    height: auto;
+}
+.main .gallery .left .div-1{
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-column-gap: 20px;
+}
+.main .gallery .left .div-2{
+    display: grid;
+    grid-template-columns: 2fr 6fr 2fr;
+    grid-column-gap: 20px;
+    margin: 20px 0px;
+}
+.main .gallery .left .div-3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 20px;
+    margin-bottom: 20px;
+}
+.main .gallery .left .div-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+/* .banner .left .div-1 > *{
+border: 1px solid black;
+}
+.banner .left .div-2 > * {
+border: 1px solid black; 
+}
+.banner .left .div-3 > *{
+border: 1px solid black;
+}
+.banner .left .div-4 > * {
+border: 1px solid black;
+} */
