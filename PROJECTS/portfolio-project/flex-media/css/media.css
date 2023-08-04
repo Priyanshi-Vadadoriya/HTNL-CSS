@@ -77,20 +77,19 @@
 .banner .header .header-bottom{
     height: 50px;
 }
+
+
 .banner .banner-2{
     height: 450px;
     background-position: 0% 50%;
+    margin-bottom: 50px;
 }
-.banner .banner-2 .sale .circle{
+.banner .banner-2 .circle{
     display: none;
 }
-.banner .banner-2 .sale .circle::after{
-    display: none;
-}
-.banner .banner-2 .sale .shop-now{
-    top: 15%;
-    left: 5%;
-}
+
+
+
 .banner .banner-3{
     flex-wrap: wrap;
     padding: 0px;

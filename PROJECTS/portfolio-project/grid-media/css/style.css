@@ -18,10 +18,10 @@ body
     grid-template-columns: 3fr 3fr 4fr;
     grid-template-rows: 90px;
     background-color: white;
-    position: fixed;
+    /* position: fixed;
     top: 0%;
     left: 0%;
-    z-index: 3;
+    z-index: 3; */
   }
 .banner .header .logo{
     display: flex;
@@ -71,7 +71,7 @@ body
     top: 150%;
     left: 30%;
     text-align: center;
-    opacity: 0;
+    visibility: hidden;
     transition: 0.5s;
     z-index: 3;
 }
@@ -87,7 +87,7 @@ body
     display: block;
 }
 .banner .header .nav ul .shop:hover .dropdown{
-    opacity: 1;
+    visibility: visible;
     top: 105%;
 }
 .banner .header .nav .dropdown li a:hover{
@@ -100,7 +100,7 @@ body
     top: 150%;
     left: 40%;
     text-align: center;
-    opacity: 0;
+    visibility: hidden;
     transition: 0.5s;
     z-index: 4;
 }
@@ -115,7 +115,7 @@ body
     display: block;
 }
 .banner .header .nav ul .blog:hover .dropdown2{
-    opacity: 1;
+    visibility: visible;
     top: 105%;
 }
 .banner .header .nav .dropdown2 li a:hover{
@@ -128,7 +128,7 @@ body
     top: 150%;
     left: 40%;
     text-align: center;
-    opacity: 0;
+    visibility: hidden;
     transition: 0.5s;
     z-index: 5;
 }
@@ -143,7 +143,7 @@ body
     display: block;
 }
 .banner .header .nav ul .pages:hover .dropdown3{
-    opacity: 1;
+    visibility: visible;
     top: 105%;
 }
 .banner .header .nav .dropdown3 li a:hover{

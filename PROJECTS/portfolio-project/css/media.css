@@ -1,0 +1,119 @@
+@media(max-width:500px)
+{
+    .header{
+        height: 60px;
+        background: white;
+    }
+    .navbar
+    {
+        display: none;
+    }
+    .logo{
+        height: 60px;
+    }
+    
+    .logo i{
+        margin-left: 110%;
+        display: block;
+    }
+    
+    .home-content{
+        width: 100%;
+    }
+    .person{
+        width: 100%;
+        padding: 50px 0 50px 0;
+        margin-left: -10%;
+    }
+    .home-content h1{
+        font-size: 45px;
+    }
+    .home-content h3{
+        font-size: 25px;
+    }
+    .home-content p{
+        font-size: 18px;
+    }
+    .sidebar
+    {padding-top: 50px;}
+    .sidebar a 
+    {font-size: 18px;
+    margin-top: 15px;
+    }
+
+
+.profile-section-2 .part-1{
+    margin: unset;
+  }  
+.my-profile .profile-section-1 h4{
+    padding-inline: 30px;
+    font-size: 18px;
+}
+.my-profile h2::after,.my-profile h2::before{
+    left: 42%;
+}
+.my-profile h2::before{
+    left: 45%;
+}
+.my-profile .profile-section-1 p{
+    font-size: 25px;
+}
+.profile-section-2 .part-1 .content{
+    font-size: 18px;
+}
+.profile-section-2 .part-1{
+    width: 100%;
+}
+
+
+.skills-department{
+    padding-top: 50px;
+}
+.skill-card{
+width: 100%;
+padding: 10px 0px;
+}
+.skills-department h2{
+    margin-bottom: 30px;
+}
+
+
+
+
+    .main-project{
+        padding: 0;
+    }
+    .main-project .project-middle .project-item{
+        width: 100%;
+    }
+
+
+    .contact
+	{
+		padding:50px;
+	}
+    .contact .content{
+        width: 100%;
+        text-align: center;
+      }
+	.container
+	{
+		flex-direction: column;
+	}
+	 .container .contactinfo
+	{
+		margin-bottom: 40px
+	}
+ 	.container .contactinfo,
+	.contactForm 
+	{
+		width: 100%
+	}
+
+    .main-drop {
+        width: 100%;
+    }
+
+
+
+}
