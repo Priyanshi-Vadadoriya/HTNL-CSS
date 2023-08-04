@@ -71,7 +71,8 @@ body
     top: 150%;
     left: 30%;
     text-align: center;
-    visibility: hidden;
+    /* visibility: hidden; */
+    opacity: 0;
     transition: 0.5s;
     z-index: 3;
 }
@@ -86,8 +87,9 @@ body
     background-color: white;
     display: block;
 }
-.banner .header .nav ul .shop:hover .dropdown{
-    visibility: visible;
+.banner .header .nav ul li:hover .dropdown{
+    /* visibility: visible; */
+    opacity: 1;
     top: 105%;
 }
 .banner .header .nav .dropdown li a:hover{

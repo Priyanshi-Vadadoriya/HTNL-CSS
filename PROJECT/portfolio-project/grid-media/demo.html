@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .banner .header{
+    width: 100%;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: 3fr 3fr 4fr;
+    grid-template-rows: 90px;
+    background-color: white;
+    /* position: fixed;
+    top: 0%;
+    left: 0%;
+    z-index: 3; */
+  }
+.banner .header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    position: relative;
+}
+.banner .header .logo span{
+    font-size: 4lvh;
+    padding-right: 20px;
+    color: blue;
+    position: absolute;
+    top: 33%;
+    right: 0%;
+    display: none;
+}
+
+.banner .header .nav{
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner .header .nav li{
+    display: inline-block;
+    position: relative;
+    padding: 5px 8px 5px 8px
+     
+}
+
+.banner .header .nav li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+    font-weight: 500;
+    padding: 25px 15px 25px 15px;
+}
+.banner .header .nav li a:hover{
+    color: blue;
+}
+
+.banner .header .nav .dropdown{
+    width: 180px;
+    position: absolute;
+    top: 150%;
+    left: 30%;
+    text-align: center;
+    visibility: hidden;
+     
+    transition: 0.5s;
+    z-index: 3;
+}
+.banner .header .nav .dropdown li{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 1px solid #ededed;
+}
+
+.banner .header .nav .dropdown li a{
+    padding: 10px 0;
+    background-color: white;
+    display: block;
+}
+.banner .header .nav ul li:hover .dropdown{
+    visibility: visible;
+    /* opacity: 1; */
+    top: 105%;
+}
+.banner .header .nav .dropdown li a:hover{
+    background-color: blue;
+    color: white;
+}
+.banner .header .nav .dropdown2{
+    width: 180px;
+    position: absolute;
+    top: 150%;
+    left: 40%;
+    text-align: center;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 4;
+}
+.banner .header .nav .dropdown2 li{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 1px solid #ededed;
+}
+.banner .header .nav .dropdown2 li a{
+    padding: 10px 0;
+    background-color: white;
+    display: block;
+}
+.banner .header .nav ul .blog:hover .dropdown2{
+    visibility: visible;
+    top: 105%;
+}
+.banner .header .nav .dropdown2 li a:hover{
+    background-color: blue;
+    color: white;
+}
+.banner .header .nav .dropdown3{
+    width: 180px;
+    position: absolute;
+    top: 150%;
+    left: 40%;
+    text-align: center;
+    visibility: hidden;
+    transition: 0.5s;
+    z-index: 5;
+}
+.banner .header .nav .dropdown3 li{
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    border-bottom: 1px solid #ededed;
+}
+.banner .header .nav .dropdown3 li a{
+    padding: 10px 0;
+    background-color: white;
+    display: block;
+}
+.banner .header .nav ul .pages:hover .dropdown3{
+    visibility: visible;
+    top: 105%;
+}
+.banner .header .nav .dropdown3 li a:hover{
+    background-color: blue;
+    color: white;
+}
+
+.banner .header .buy-now{
+    border: 1px solid black;
+    word-spacing: 10px;
+    padding: 25px 80px;
+}
+.banner .header .buy-now a{
+    display: inline-block;
+    margin-left: 40px;
+    border: 1px solid #EEEEEE;
+    font-size: 2.5lvh;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 12px 35px;
+    color: #222;
+}
+.banner .header .buy-now a:hover{
+    border: 1px solid #384aeb;
+}
+
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <!-- header start.... -->
+        <div class="header">
+            <div class="logo">
+                <img src="images/logo.png (1).webp" alt="" height="30%" width="25%">
+                <span><i class="fa-solid fa-bars"></i></span>
+            </div>
+            <div class="nav">
+                <ul>
+                    <li><a href="#" style="color: blue;">Home</a></li>
+                    <li class="shop"><a href="#">Shop</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Shop Cetegory</a></li>
+                            <li><a href="#">Product Details</a></li>
+                            <li><a href="#">Product Checkout</a></li>
+                            <li><a href="#">Confirmation</a></li>
+                            <li><a href="#">Shopping Cart</a></li>
+                        </ul>
+                    </li>
+                    <li class="blog"><a href="#">Blog</a>
+                        <ul class="dropdown2">
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Blog Details</a></li>
+                        </ul></li>
+                    <li class="pages"><a href="3">Pages</a>
+                        <ul class="dropdown3">
+                            <li><a href="#">Login</a></li>
+                            <li><a href="#">Register</a></li>
+                            <li><a href="#">Tracking</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <div class="buy-now">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a href="#">Buy Now</a>
+            </div>
+        </div>
+        <!-- header end.... -->
+        </div>
+</body>
+</html>
