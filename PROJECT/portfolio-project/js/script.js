@@ -4,10 +4,12 @@ pro3 = document.getElementById('progress-bar-3');
 pro4 = document.getElementById('progress-bar-4');
 pro5 = document.getElementById('progress-bar-5');
 pro6 = document.getElementById('progress-bar-6');
+head = document.getElementById('head');
+
 
         function test()
         {
-            if(document.documentElement.scrollTop > 1000)
+            if(document.documentElement.scrollTop > 900)
             {
                 pro1.style.background = "conic-gradient(#7d2a7d 320deg, #ededed 0deg)";
                 pro2.style.background = "conic-gradient(#7d2a7d 300deg, #ededed 0deg)";
@@ -15,6 +17,8 @@ pro6 = document.getElementById('progress-bar-6');
                 pro4.style.background = "conic-gradient(#7d2a7d 260deg, #ededed 0deg)";
                 pro5.style.background = "conic-gradient(#7d2a7d 250deg, #ededed 0deg)";
                 pro6.style.background = "conic-gradient(#7d2a7d 180deg, #ededed 0deg)";
+                head.style.background = "#004773";
+
             }
             else
             {

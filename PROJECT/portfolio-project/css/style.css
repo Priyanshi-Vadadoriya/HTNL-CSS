@@ -49,10 +49,9 @@ a{
   height: 100%;
   width: 0;
   position: fixed;
-  /* z-index: 1; */
   top: 0;
   left: 0;
-  background-color: rgb(90, 90, 190);
+  background-color: white;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -62,13 +61,13 @@ a{
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: white;
+  color:  #004773;
   display: block;
   transition: 0.3s;
 }
 
 .sidebar a:hover {
-  color: #f1f1f1;
+  color:  #30CED8;
 }
 
 .sidebar .closebtn {
@@ -104,15 +103,13 @@ a{
 .home{
   position: relative;
   width: 100%;
-  height: auto;
   justify-content: space-between;
-  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt3nAukVK2G2mXI436ZNB7Y8074MKfoLuZZwelC_eDc3DedPSd0cDU8U7oCYK0ljy1CTQ&usqp=CAU) no-repeat;
+  background: url(../images/image1.jpeg) no-repeat;
   background-size: cover;
-  background-position: center;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  padding: 12% 0 12% 10%;
+  padding: 13% 0 13% 10%;
 }
 .home-content{
   width: 50%;
@@ -122,6 +119,10 @@ a{
   font-size: 32px;
   font-weight: 700;
   color: white;
+}
+.home-content span{
+  font-size: 32px;
+  color: #0ef;
 }
 .home-content h1{
   font-size: 56px;
@@ -172,7 +173,7 @@ a{
 .person .person-img{
   height: 300px;
   width: 300px;
-  background: url(IMG20220226133709.jpg);
+  background: url(../images/person.jpg);
   background-size: cover;
   background-position-x: 40%;
   border-radius: 50%;
@@ -217,7 +218,7 @@ a{
   width: 68px;
   height: 4px;
   border-radius: 25px;
-  background-color: #808080;
+  background-color:  #2E5A88;
   position: absolute;
   top: 110%;
   left: 47%;
@@ -253,7 +254,7 @@ a{
 }
 .profile-section-2 .part-1 .content:hover
  {
-  background: #808080;
+  background: #2E5A88;
   color: white;
  }
 
@@ -263,7 +264,7 @@ a{
     text-align: center;
 }
 .my-profile .profile-section-1 b{
-  color: #808080;
+  color:  #2E5A88;
   text-align: center;
 }
 .my-profile .profile-section-1 h4{
@@ -295,7 +296,7 @@ a{
   font-size:45px;
 }
 .skills-department span{
-  color: #808080;
+  color:  #2E5A88;
 }
 
 .skill-card{
@@ -335,8 +336,8 @@ display: flex;
   
   }
 .text{
-font-size: 20px;
-font-weight: 500;
+font-size: 22px;
+font-weight: 800;
 padding-top: 22px;
 color: #343232;
 }
@@ -403,7 +404,7 @@ color: #343232;
   font-family:Helvetica;
   color: #444;
 }
-.box p{
+.contents .box p{
   line-height: 1.2;
   color: #666;
 }
@@ -418,7 +419,9 @@ color: #343232;
   position: relative;
   height: 350px;
 }
-
+.main-project .project-list1 img{
+  object-fit: cover;
+}
 .main-project .project-head h2 {
   text-align: center;
   font-size:50px;
@@ -450,11 +453,9 @@ color: #343232;
   height: 100% ;
 }
 .overplay h2{
-  width: 100%;
   margin-top: 40%;
   font-size: 3vw;
   color: white;
-  position: absolute;
   text-align: center;
   font-family: 'Damion',cursive;
 }
@@ -469,7 +470,7 @@ color: #343232;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background:url(https://img.freepik.com/free-photo/top-view-blue-monday-concept-composition-with-telephone_23-2149139104.jpg?w=2000);
+  background:url(../images/image2.avif);
   background-size: 100% 100%;
 }
 .contact .content{
@@ -479,9 +480,6 @@ color: #343232;
 .contact .content h2{
   font-size: 45px;
   margin-bottom: 80px;
-}
-.contact .content p{
-  font-weight: 300;
 }
 .contact .container{
   width: 80%;
@@ -502,7 +500,7 @@ color: #343232;
 .contact .container .contactinfo .box .icon{
   min-width: 60px;
   height: 60px;
-  background: #fff;
+  background: lightblue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -517,10 +515,15 @@ color: #343232;
   font-weight: 300;
 }
 .contact .container .contactinfo .box .text h3{
+  font-size: 18px;
   font-weight: 500;
   color: #00bcd4;
 }
-
+.contact .container .contactinfo .box .text p{
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
 .contactForm{
   width: 40%;
   padding: 40px;
@@ -579,21 +582,21 @@ color: #343232;
 
 /* Contact end */
 
-/* Drop image start */
-.main-drop {
+/*  image start */
+.back-img {
   height: 500px;
-  background: url(https://i0.wp.com/plopdo.com/wp-content/uploads/2021/07/Screenshot-1.png?resize=1210%2C642&ssl=1);
-  background-size: cover;
+  background: url(../images/image5.png);
+  background-size: 100% 100%;
   background-attachment: fixed;
 }
-/* Drop image end */
+/* image end */
 
 
 /* Footer start */
 footer{
   width: 100%;
   text-align: center;
-  background: #E5E4E2;
+  background: #FAF9F6;
   line-height: 70px;
 }
 

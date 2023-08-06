@@ -23,7 +23,7 @@
 .banner .header .logo{
   padding-left: 20px;
   justify-content: left;
-
+  border: none;
 }
 .banner .header .logo span{
   display: block;
@@ -42,13 +42,12 @@
 }
 .banner .banner-2 {
   grid-template-columns: 0.5fr 9.5fr;
-  grid-template-rows: 330px;
+  grid-template-rows: 400px;
 }
 .banner .banner-2 .right .text{
-  padding-left: 30px;
-  padding-top: 20px;
+  padding: 30px 0 0 30px;
   width: 100%;
-  top: 10%;
+  top:20%;
   left: 0%;
 }
 .banner .banner-2 .right .text h1{
@@ -61,6 +60,9 @@
 .banner .banner-2 .right .text p{
   line-height: 25px;
 }
+
+
+
 .banner .banner-3{
   grid-template-columns: 1fr;
 

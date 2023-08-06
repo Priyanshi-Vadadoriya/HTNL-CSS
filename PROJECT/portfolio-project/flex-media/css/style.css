@@ -7,13 +7,9 @@
 body{
     overflow-x: hidden;
 }
-.banner .header
-{
-    /* height: 300px; */
-}
+ /* header top start  */
 .banner .header .header-top
 {
-    /* height: 50px; */
     display: flex;
     font-size: 2.5vh;
     border-bottom: 1px solid #e5e5e5;
@@ -21,13 +17,11 @@ body{
 .banner .header .header-top .left 
 {
     width: 50%;
-    /* height: 50px; */
     display: flex;
 }
 .banner .header .header-top .left .mail
 {
     width: 50%;
-    /* height: 50px; */
     padding-left: 150px;
     padding-top: 15px;
     border-right: 1px solid #e5e5e5;
@@ -35,20 +29,17 @@ body{
 .banner .header .header-top .left .phone
 {
     width: 50%;
-    /* height: 50px; */
     padding-left: 30px;
     padding-top: 15px;
 }
 .banner .header .header-top .right 
 {
     width: 50%;
-    /* height: 50px; */
     display: flex;
 }
 .banner .header .header-top .right .icon
 {
     width: 30%;
-    /* height: 50px; */
     text-align: right;
     padding-top: 15px;
 }
@@ -60,7 +51,6 @@ body{
 .banner .header .header-top .right .flag
 {
     width: 20%;
-    /* height: 50px; */
     padding-top: 15px;
     text-align: center;
     border: 1px solid #e5e5e5;
@@ -82,16 +72,17 @@ body{
     color: black;
     text-decoration: none;
 }
+/* header top end */
+
+/* header middle start */
 .banner .header .header-middle
 {
-    /* height: 120px; */
     display: flex;
     font-size: 20px;
 }
 .banner .header .header-middle .logo
 {
     width: 20%;
-    /* height: 120px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,7 +90,6 @@ body{
 .banner .header .header-middle .search
 {
     width: 65%;
-    /* height: 120px; */
     padding-left: 80px;
 }
 .banner .header .header-middle .search a
@@ -123,7 +113,6 @@ body{
     margin: 40px 0 40px 0;
     border: 1px solid #e5e5e5;
     outline: none;
-
 }
 .banner .header .header-middle .search .btn2
 {
@@ -135,51 +124,34 @@ body{
 }
 .banner .header .header-middle .service
 {
-    width: 25%;
-    /* height: 120px; */
-    /* position: relative; */
+    width: 25%; 
 }
-/* .banner .header .header-middle .service span
-{
-    position: absolute;
-    right: -8px;
-    top: -1px;
-    height: 15px;
-    width: 15px;
-    background: #e7ab3c;
-    border-radius: 50%;
-    font-size: 11px;
-    font-weight: 700;
-    text-align: center;
-} */
 .banner .header .header-middle .service a
 {
     text-decoration: none;
     padding-inline: 12px;
     line-height: 130px; 
 }
+/* header middle end */
+
+/* header bottom start */
 .banner .header .header-bottom
 {
-    /* height: auto; */
-    background-color: black;
-    
+    background-color: black; 
 }
 .banner .header .header-bottom .nav-item
 {
-    /* height: 100px; */
     width: 70%;
     background-color: #3b3b3b;
     margin: auto;
 }
 .banner .header .header-bottom .nav-item .item
 {
-    /* height: 50px; */
     display: flex;
 }
 .banner .header .header-bottom .nav-item .department
 {
     width: 25%;
-    /* height: 50px; */
     word-spacing: 5px;
     padding-top: 15px;
     font-size: 16px;
@@ -232,7 +204,6 @@ body{
 .banner .header .header-bottom .nav-item nav
 {
     width: 75%;
-    /* height: 50px; */
     background-color: #3b3b3b;
 }
 .banner .header .header-bottom .nav-item nav ul li{
@@ -314,7 +285,6 @@ body{
 {
     text-decoration: none;
     display: inline-block;
-    /* height: 30px; */
     width: 100px;
     background-color: #222222;
     padding: 5px 0 0 8px;
@@ -325,6 +295,9 @@ body{
 {
    margin-left: 10px;
 }
+/* header bottom end */
+
+/* slider image banner-2 start */
 .banner .banner-2
 {
     height: 700px;
@@ -337,7 +310,6 @@ body{
 
 .banner .banner-2 .shop-now
 {
-    /* height: 250px; */
     width: 450px;
     position: absolute;
     top: 33%;
@@ -391,11 +363,11 @@ body{
     top: 5%;
     left: 5.5%;
 }
+/* slider image banner-2 end  */
 
-
+/* categories banner-3 start */
 .banner .banner-3
 {
-    /* height: 400px; */
     display: flex;
     padding: 80px 70px 70px 70px;
 }
@@ -412,7 +384,6 @@ body{
     position: relative;
    
 }
-
 .banner .banner-3 .men .gender-men
 {
     height: 55px;
@@ -503,14 +474,15 @@ body{
     left: 0%;
     scale: 1;
     transition: 0.4s;
-
 }
 .banner .banner-3 .kid:hover ::after{
     scale: 3;
 }
+/* categories banner-3 end */
+
+/* banner-4 start */
 .banner .banner-4
 {
-    /* height: 700px; */
     display: flex;
     padding: 0 70px 0 70px;
 }
@@ -537,7 +509,6 @@ body{
 .banner .banner-4 .right-img
 {
     width: 75%;
-    /* height: 600px; */
     margin-left: 100px;
 }
 .banner .banner-4 .right-img .nav-category
@@ -545,10 +516,7 @@ body{
     display: flex;
     justify-content: center;
 }
-.banner .banner-4 .right-img .nav-category .cat
-{
-    /* height: 100px; */
-}
+
 .banner .banner-4 .right-img .nav-category .cat ul li{
     display: inline-block;
     text-align: center;
@@ -627,22 +595,16 @@ body{
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    /* display: none; */
 }
 .banner .banner-4 .right-img .product .pro
 {
     width: 33.33%;
-    /* height: 500px; */
 }
-.banner .banner-4 .right-img .product .info
-{
-    /* height: 89px; */
-}
+
 .banner .banner-4 .right-img .product .info .detail
 {
     text-align: center;
     padding: 5px;
-    /* height: 30px; */
 }
 .banner .banner-4 .right-img .product .info .name
 {
@@ -668,11 +630,13 @@ body{
     color: #b2b2b2;
     font-size: 3lvh;
 }
+/* banner-4 end */
+
+/* banner-5 start */
 .banner .banner-5
 {
     height: 500px;
     margin: 70px 70px;
-    /* display: none; */
     padding: 75px 0;
     background: url(../images/time-bag.jpg);
     background-size: 100% 100%;
@@ -701,7 +665,6 @@ body{
     top: 30%;
     left: 40%;
 }
-
 .banner .banner-5 .container p
 {
     margin-top: 40px;
@@ -732,10 +695,8 @@ body{
     text-align: center;
     justify-content: space-around;
 }
-
 .banner .banner-5 .container .time .tm
 {
-    /* height: 90px; */
     width: 80px;
     border-radius: 5px;
     background-color: white;
@@ -766,9 +727,11 @@ body{
     text-decoration: none;
     color: white;
 }
+/* banner-5 end  */
+
+/* banner-6 start */
 .banner .banner-6
 {
-    /* height: 700px; */
     display: flex;
     margin-bottom: 80px;
     padding: 0 70px 0 70px;
@@ -776,17 +739,12 @@ body{
 }
 .banner .banner-6 .left-img
 {
-    /* height: 600px; */
     width: 75%;
 }
 .banner .banner-6 .left-img .nav-category
 {
     display: flex;
     justify-content: center;
-}
-.banner .banner-6 .left-img .nav-category .cat
-{
-    /* height: 100px; */
 }
 .banner .banner-6 .left-img .nav-category .cat ul li{
     display: inline-block;
@@ -858,28 +816,19 @@ body{
     top: 86%;
     transition: 0.4s;
 }
-
 .banner .banner-6 .left-img  .product
 {
-    /* height: 500px; */
     display: flex;
     text-align: center;
-
 }
 .banner .banner-6 .left-img  .product .pro
 {
     width: 33.33%;
-    /* height: 500px; */
-}
-.banner .banner-6 .left-img  .product .info
-{
-    /* height: 89px; */
 }
 .banner .banner-6 .left-img  .product .info .detail
 {
     text-align: center;
     padding: 5px;
-    /* height: 30px; */
 }
 .banner .banner-6 .left-img  .product .info .name
 {
@@ -909,13 +858,11 @@ body{
 {
     width: 25%;
     height: 600px;
-    border: 1px solid black;
-    
+    border: 1px solid black; 
 }
 .banner .banner-6 .right-img
 {
     width: 25%;
-    /* height: 600px; */
     border: 1px solid;
     text-align: center;
     font-size: 4lvh;
@@ -933,7 +880,9 @@ body{
    color: white;
    font-size: 3lvh;
 }
+/* banner-6 end */
 
+/* banner-7 start */
 .banner .banner-7
 {
     height: 100%;
@@ -984,23 +933,12 @@ body{
 {
     display: block;
 }
+/* banner-7 end  */
 
+/* banner-8 start */
 .banner .banner-8
 {
-    /* height: 900px; */
     padding: 73px 180px;
-}
-.banner .banner-8 .container
-{
-    /* height: 750px; */
-}
-.banner .banner-8 .container .heading
-{
-    /* height: 100px; */
-}
-.banner .banner-8 .container .heading .head
-{
-    /* height: 50px; */
 }
 .banner .banner-8 .container .heading .title
 {
@@ -1024,28 +962,21 @@ body{
 }
 .banner .banner-8 .container .img-info
 {
-    /* height: 500px; */
     margin-top: 50px;
     display: flex;
 }
 .banner .banner-8 .container .img-info .content-of-img
 {
-    /* height: 500px; */
     width: 33.33%;
     padding-inline: 10px;
 }
-.banner .banner-8 .container .img-info .content-of-img .images
-{
-    /* height: 50%; */
-}
+
 .banner .banner-8 .container .img-info .content-of-img .text
 {
-    /* height: 45%; */
     margin-top: 20px;
 }
 .banner .banner-8 .container .img-info .content-of-img .text .icons
 {
-    /* height: 40px; */
     padding-top: 10px;
     color: #a2a1a1;
     display: flex;
@@ -1076,48 +1007,41 @@ body{
 }
 .banner .banner-8 .container .shipping
 {
-    /* height: 100px; */
     margin-top: 50px;
     display: flex;
 }
 .banner .banner-8 .container .shipping .shipping-img
 {
-    /* height: 100px; */
     width: 33.33%;
     display: flex;
     border: 1px solid #F3F4F0;
-
 }
 .banner .banner-8 .container .shipping .shipping-img .icon-shipping
 {
-    /* height: 100px; */
     width: 35%;
     padding-left: 45px;
     padding-top: 15px;padding-bottom: 15px;
 }
 .banner .banner-8 .container .shipping .shipping-img .text-shipping
 {
-    /* height: 100px; */
     padding-top: 18px;
     width: 75%;
 }
+/* banner-8 end  */
 
-
+/* banner-9 start */
 .banner .banner-9
 {
-    /* height: 550px; */
     background: #191919;
 }
 .banner .banner-9 .footer-head
 {
-    /* height: 120px; */
     padding-top: 3px;
     padding-bottom: 70px;
     background: #303030;
 }
 .banner .banner-9 .footer-head .footer-img
 {
-    /* height: 100%; */
     width: 75%;
     margin: auto;
     margin-top: 40px;
@@ -1125,24 +1049,20 @@ body{
 }
 .banner .banner-9 .footer-head .footer-img .foot-img
 {
-    /* height: 60px; */
     width: 20%;
 }
 .banner .banner-9 .footer-middle
 {
     padding-bottom: 70px;
-    /* height: 370px; */
 }
 .banner .banner-9 .footer-middle .footer-content
 {
-    /* height: 370px; */
     width: 75%;
     margin: auto;
     display: flex;
 }
 .banner .banner-9 .footer-middle .footer-content .part1
 {
-    /* height: 370px; */
     width: 30%;
 }
 .banner .banner-9 .footer-middle .footer-content .part1 img
@@ -1161,13 +1081,11 @@ body{
 }
 .banner .banner-9 .footer-middle .footer-content .part1 .social
 {
-    /* height: 50px; */
     width: 200px;
     display: flex;
 }
 .banner .banner-9 .footer-middle .footer-content .part1 .social .social-icons1
 {
-   /* height: 50px; */
    width: 50px;
 }
 .banner .banner-9 .footer-middle .footer-content .part1 .social .social-icons1 .facebook
@@ -1186,7 +1104,6 @@ body{
 }
 .banner .banner-9 .footer-middle .footer-content .part1 .social .social-icons2
 {
-   /* height: 50px; */
    width: 50px;
 }
 .banner .banner-9 .footer-middle .footer-content .part1 .social .social-icons2 .insta
@@ -1205,7 +1122,6 @@ body{
 }
 .banner .banner-9 .footer-middle .footer-content .part1 .social .social-icons3
 {
-   /* height: 50px; */
    width: 50px;
 }
 .banner .banner-9 .footer-middle .footer-content .part1 .social .social-icons3 .twitter
@@ -1224,7 +1140,6 @@ body{
 }
 .banner .banner-9 .footer-middle .footer-content .part1 .social .social-icons4
 {
-   /* height: 50px; */
    width: 50px;
 }
 .banner .banner-9 .footer-middle .footer-content .part1 .social .social-icons4 .pintrest
@@ -1243,7 +1158,6 @@ body{
 }
 .banner .banner-9 .footer-middle .footer-content .part2
 {
-    /* height: 370px; */
     width: 15%;
 }
 .banner .banner-9 .footer-middle .footer-content .part2 p
@@ -1262,7 +1176,6 @@ body{
 }
 .banner .banner-9 .footer-middle .footer-content .part3
 {
-    /* height: 370px; */
     width: 15%;
 }
 .banner .banner-9 .footer-middle .footer-content .part3 p
@@ -1281,7 +1194,6 @@ body{
 }
 .banner .banner-9 .footer-middle .footer-content .part4
 {
-    /* height: 370px; */
     width: 40%;
 }
 .banner .banner-9 .footer-middle .footer-content .part4 p
@@ -1320,13 +1232,11 @@ body{
 }
 .banner .banner-9 .footer-bottom
 {
-    /* height: 60px; */
     border-top: 1px solid #303030;
     display: flex;
 }
 .banner .banner-9 .footer-bottom .left-side
 {
-    /* height: 60px; */
     padding-top: 20px;padding-bottom: 20px;
     text-align: end;
     width: 50%;
@@ -1338,8 +1248,8 @@ body{
 }
 .banner .banner-9 .footer-bottom .right-side
 {
-    /* height: 60px; */
     text-align: center;
     padding-top: 18px;
     width: 50%;
 }
+/* banner-9 end */
