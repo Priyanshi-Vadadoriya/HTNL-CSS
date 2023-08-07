@@ -5,37 +5,37 @@
     height: 60px;
     background: white;
 }
-.navbar
+.header .navbar
 {
     display: none;
 }
-.logo{
+.header .logo{
     height: 60px;
 }  
-.logo i{
+.header .logo i{
     margin-left: 110%;
     display: block;
 } 
-.home-content{
-     width: 100%;
+.home .home-content{
+    width: 100%;
 }
-.person{
+.home .person{
     width: 100%;
     padding: 50px 0 50px 0;
     margin-left: -10%;
 }
-.home-content h1{
+.home .home-content h1{
     font-size: 45px;
 }
-.home-content h3{
+.home .home-content h3{
     font-size: 25px;
 }
-.home-content p{
+.home .home-content p{
     font-size: 18px;
 }
-.sidebar
+.header .logo .sidebar
 {padding-top: 50px;}
-.sidebar a 
+.header .logo .sidebar a
 {
     font-size: 18px;
     margin-top: 15px;
@@ -51,26 +51,26 @@
 {
     padding-top: 0px;
 }   
-.profile-section-2 .part-1{
+.about-section .my-profile .profile-section-2 .part-1{
     margin: unset;
-  }  
-.my-profile .profile-section-1 h4{
+}  
+.about-section .my-profile .profile-section-1 h4{
     padding-inline: 30px;
     font-size: 18px;
 }
-.my-profile h2::after,.my-profile h2::before{
+.about-section .my-profile h2::after,.my-profile h2::before{
     left: 42%;
 }
-.my-profile h2::before{
+.about-section .my-profile h2::before{
     left: 45%;
 }
-.my-profile .profile-section-1 p{
+.about-section .my-profile .profile-section-1 p{
     font-size: 25px;
 }
-.profile-section-2 .part-1 .content{
+.about-section .my-profile .profile-section-2 .part-1 .content{
     font-size: 18px;
 }
-.profile-section-2 .part-1{
+.about-section .my-profile .profile-section-2 .part-1{
     width: 100%;
 }
 /* About end */
@@ -79,9 +79,9 @@
 .skills-department{
     padding-top: 50px;
 }
-.skill-card{
-width: 100%;
-padding: 10px 0px;
+.skills-department .skills-row .skill-card{
+    width: 100%;
+    padding: 10px 0px;
 }
 .skills-department h2{
     margin-bottom: 30px;
@@ -102,7 +102,7 @@ padding: 10px 0px;
 .main-project .project-middle .project-item{
     width: 100%;
 }
-.overplay h2{
+.main-project .project-middle .project-item .project-list1 .overplay h2{
     margin-top: 70%;
     font-size: 40px;
 }
@@ -125,12 +125,12 @@ padding: 10px 0px;
 {
 	flex-direction: column;
 }
-.container .contactinfo
+.contact .container .contactinfo
 {
 	margin-bottom: 40px
 }
-.container .contactinfo,
-.contactForm 
+.contact .container .contactinfo,
+.contact .container .contactForm
 {
 	width: 100%
 }
@@ -157,6 +157,4 @@ footer h2{
     font-size: 3vw;
 }
 /* Footer section end  */
-
-
 }
