@@ -230,10 +230,10 @@ footer h2{
 @media(max-width:400px)
 {
     .home .person{
-        margin-left:-18%;
+        margin-left:-52%;
     }
     .header .logo i{
-        margin-left: 90%;
+        margin-left: 88%;
     } 
     .contact .container .contactForm{
         width: 100%;

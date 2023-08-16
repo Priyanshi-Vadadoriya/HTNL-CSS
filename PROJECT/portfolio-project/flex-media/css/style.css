@@ -314,6 +314,7 @@ body{
     position: absolute;
     top: 33%;
     left: 12%;
+    animation: textleft 3s ease forwards infinite;
 }
 .banner .banner-2 .shop-now h1
 {
@@ -345,6 +346,7 @@ body{
     top: 20%;
     left: 45%;
     position: relative;
+    animation: roundsale 3s ease forwards infinite;
 }
 .banner .banner-2 .circle::after
 {
@@ -363,6 +365,27 @@ body{
     top: 5%;
     left: 5.5%;
 }
+@keyframes textleft{
+    0%{
+      transform: translateY(150px);
+      opacity: 0;
+    }
+    100%{
+      transform: translateY(-0px);
+      opacity: 1;
+    }
+  }
+  
+  @keyframes roundsale {
+    0%{
+        transform: rotate(75deg);
+        opacity: 0;
+      }
+      100%{
+        transform:translateX(45deg);
+        opacity: 1;
+      }
+  }
 /* slider image banner-2 end  */
 
 /* categories banner-3 start */
