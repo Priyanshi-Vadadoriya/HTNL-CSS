@@ -463,10 +463,10 @@ a{
   width: 800px;
   text-align: center;
 }
-.contact .content h2{
-  font-size: 45px;
-  margin-bottom: 80px;
-}
+  .contact .content h2{
+    font-size: 45px;
+    margin-bottom: 80px;
+  }
 .contact .container{
   width: 80%;
   display: flex;
@@ -502,10 +502,10 @@ a{
 }
 .contact .container .contactinfo .box .text h3{
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   color: #00bcd4;
 }
-.contact .container .contactinfo .box .text p{
+.contact .container .contactinfo .box .text b{
   font-size: 18px;
   font-weight: 500;
   color: black;
