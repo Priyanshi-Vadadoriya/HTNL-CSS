@@ -39,16 +39,15 @@
     width: 60%;
   }
 
-  footer h2{
-    font-size: 18px;
-  }
+ 
 } 
 
 @media(max-width:800px)
 {
     .header .logo i{
-        margin-left: 130%;
+        margin-left: 80%;
         display: block;
+        display: none;
     } 
     .home .person{
         margin-left: -4%;
@@ -216,9 +215,7 @@ footer .nav li{
 footer p{
     font-size: 18px;
 }
-footer h2{
-    font-size: 3vw;
-}
+
 /* Footer section end  */
 }
 
@@ -329,9 +326,6 @@ footer h2{
       }
       footer .nav li{
         margin: 0px 5px;
-      }
-      footer h2{
-        font-size: 12px;
       }
       footer .nav li{
         margin: 0px 3px;
