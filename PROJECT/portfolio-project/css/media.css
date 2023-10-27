@@ -1,12 +1,14 @@
 @media(max-width:1200px)
 {
+  /* header start */
     .header .navbar{
        padding-inline: 20px ;
       }
+  /* header end */
 }
 @media(max-width:992px)
 {
-
+/* header start */
 .header{
     background: white;
 }
@@ -26,11 +28,14 @@
     margin-left: 55%;
     margin-top: 50px;
   }
+/* header end */
 
+/* project start */
   .main-project .project-middle .project-item{
-    width: 60%;
-}
+    width: 60%;}
+/* project end */
 
+/* Contact start */
   .container
   {
       flex-direction: column;
@@ -38,12 +43,13 @@
   .contact .container .contactForm{
     width: 60%;
   }
+  /* Contact end */
 
  
 } 
 
 @media(max-width:800px)
-{
+{   /* header start */
     .header .logo i{
         margin-left: 80%;
         display: block;
@@ -52,6 +58,7 @@
     .home .person{
         margin-left: -4%;
     }
+    /* header end */
 }
 
 
@@ -226,12 +233,15 @@ footer p{
 
 @media(max-width:400px)
 {
+  /* header start */
     .home .person{
         margin-left:-52%;
     }
     .header .logo i{
         margin-left: 88%;
     } 
+    /* header end */
+    /* Contact start */
     .contact .container .contactForm{
         width: 100%;
       }
@@ -241,14 +251,17 @@ footer p{
       .contact{
         padding: 75px 0px;
       }
+      /* Contact end */
+      /* footer start */
       footer .nav li{
         margin: 0px 5px;
       }
+      /* footer end */
 }
 
 
 @media(max-width:300px)
-{
+{   /* header start */
     .home .person{
         margin-left:-50%;
     }
@@ -275,6 +288,8 @@ footer p{
         padding: 10px 18px;
         
       }
+      /* header end */
+      /* About start */
       .about-section .my-profile .profile-section-1 h2{
         font-size: 30px;
       }
@@ -284,15 +299,21 @@ footer p{
       .about-section .my-profile .profile-section-2 .part-1 .content{
         padding: 10px 0px;
       }
+      /* About end */
+      /* skill start */
       .skills-department h2{
         font-size:30px;
       }
       .skills-department .skills-row .skill-card .text{
         font-size: 18px;
       }
+      /* skill end */
+      /* Education start  */
       .container4 .col .title h2{
         font-size: 30px;
       }
+      /* Education end  */
+      /* project start  */
       .main-project .project-middle .project-item .project-list1{
         height: 200px;
       }
@@ -300,6 +321,9 @@ footer p{
         font-size:30px;
         margin-top: 30px;
       }
+      /* project end  */
+
+      /* contact start  */
       .contact .content h2{
         font-size: 30px;
       }
@@ -317,13 +341,17 @@ footer p{
       .contact .container .contactForm h2{
         font-size: 20px;
       }
+      /* contact end  */
 
+      /*image section start */
       .back-img {
         height: 400px;
         background: url(../images/image5.png);
         background-size: cover;
         background-repeat: no-repeat;
       }
+      /*image section end */
+      /*Footer section start */
       footer .nav li{
         margin: 0px 5px;
       }
@@ -334,7 +362,7 @@ footer p{
       footer p{
         font-size: 13px;
       }
-      
+      /*Footer section end */
      
 
       
