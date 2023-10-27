@@ -1,20 +1,68 @@
-@media(max-width:1400px)
+@media(max-width:1435px) and  (min-width:1201px)
 {
+  .banner .header .nav li a{
+    padding: 25px 5px 25px 5px;
+}
+.banner .banner-2 .left .img{
+  left: 30%;
+}
+
 
 }
-@media(max-width:1200px)
+@media(max-width:1200px) and (min-width:769px)
 {
+  .banner .header{
+   
+    grid-template-columns: 3fr 7fr ;
     
+  }
+  .banner .header .buy-now{
+    display: none;
 }
-@media(max-width:992px)
+.banner .banner-2 
 {
-    
+    grid-template-rows: 600px;
 }
+.banner .banner-2 .left .img{
+  height: 551px;
+  width: 320px;
+  left: 23%;
+}
+.banner .banner-2 .right .text h1{
+  font-size: 3vh;
+}
+.banner .banner-2 .right .text h4{
+  font-size: 25px;
+}
+
+.banner .banner-3{
+  
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 440px;
+}
+.banner .banner-3 .image3{
+  display: none;
+}
+.banner .banner-4 .product{
+  
+  grid-template-rows: 450px;
+}
+.banner .banner-7 .news-container{
+  grid-template-columns: 1fr 1fr ;
+}
+.banner .banner-7 .news-container .part3{
+  display: none;
+}
+.banner .banner-7 .news-container .news span i{
+  display: none;
+}
+
+
+}
+   
+
+
 @media(max-width:768px)
-{
-    
-}
-@media(max-width:1200px)
 {
 .banner .header{
   grid-template-columns: 1fr;
