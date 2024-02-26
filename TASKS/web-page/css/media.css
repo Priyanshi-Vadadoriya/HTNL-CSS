@@ -1,0 +1,120 @@
+@media(max-width:1400px)
+{
+
+}
+@media(max-width:1220px)
+{
+    .banner .header .nav li{
+        padding: 0px 0px 0px 0px  
+    }
+    .banner .header .services{
+        padding: 33px 0px 0px 40px;
+    }
+    .grid-main{
+        grid-template-columns: repeat(1, 1fr);
+}
+.form{
+    padding: 20px;
+}
+.footer .info .content1 .subscribe button{
+    height: 35px;
+    width: 30px;
+}
+.footer .info .content1 .subscribe input{
+    height: 35px;
+    width: 165px;
+}
+
+}
+
+@media(max-width:900px)
+{
+    .banner .header .nav li{
+        padding: 0px 0px 0px 0px  
+    }
+    .banner .header .nav li a{
+        padding: 25px 3px 25px 3px;
+    }
+    .banner .header .services{
+        padding: 33px 0px 0px 40px;
+    }
+    .banner .header .services i{
+        margin-left: 0px;
+        font-size: 16px;
+    }
+    .footer .container{
+        width: 100%;
+        display: block;
+    }
+    .footer .contact-us {
+        width: 100%;
+    }
+    
+    .footer .info{
+        width: 100%;
+    }
+    .footer .info .content1{
+        display: block;
+    }
+    .footer .info .content1 .links{
+        width: 100%;text-align: center;
+    }
+    .footer .info .content1 .feature{
+        width: 100%;text-align: center;
+    }
+    .footer .info .content1 .social{
+        width: 100%;text-align: center;
+    }
+    .footer .info .content1 .subscribe{
+        width: 100%;text-align: center;
+    }
+    .subfooter{
+        display: block;
+    }
+    .subfooter .copyright{
+        width: 100%;
+        text-align: center;
+    padding: 10px 0 10px 0px;
+
+    }
+    .subfooter .contact{
+        width: 100%;
+        text-align: center;
+    }
+    .footer .info .content1 .subscribe button{
+        height: 40px;
+        width: 45px;
+}
+.footer .info .content1 .subscribe input{
+    height: 40px;
+    width: 250px;
+}
+   
+}
+
+@media(max-width:768px)
+{
+    .banner .header .nav{
+        display: none;
+    }
+    .banner .header .services{
+        display: none;
+    }
+    .banner .header .logo span{
+        display: block;
+        top: 28%;
+        right: 0%;
+    }
+    .banner .header{
+        grid-template-columns: 1fr;
+    }
+    .banner .header .logo{
+        justify-content: left;
+    }
+   
+   
+}
+@media(max-width:500px)
+{
+    
+}
